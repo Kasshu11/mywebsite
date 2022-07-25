@@ -1,0 +1,83 @@
+.static{
+    border: 2px solid green;
+    position: static;
+    width: 50%;
+}
+.relative{
+    border: 2px solid red;
+    position: relative;
+    /* to use relative, need to define left ,right, top, or bottom */
+    left: 30px;
+    width: 50%;
+    height: 300px;
+}
+
+.fixed{
+    border: 2px solid blueviolet;
+    position: fixed;
+    width: 30%;
+
+    /* define the position
+    even if how much you change the size of a blowser, it won't be moved */
+    bottom: 0;
+    right: 0;
+}
+.absolute{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 30%;
+    height: 100px;
+    border: 1px solid rgb(102, 0, 255);
+}
+
+.sticky{
+   position: sticky;
+    top: 0;
+    background: purple;
+    border: 3px solid goldenrod;
+}
+.abc{
+    padding: 20px;
+}
+
+
+.parent {
+    /*親要素はrelativeに*/
+    position: relative;
+    padding: 20px;
+    border: 1px solid tomato;
+  }
+  .youso{
+    background-color: blue;
+    margin: 0;
+  }
+  #absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: aqua;
+    margin: 0;
+}
+
+.text {
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+
+
+}
+  .overflow p{
+    width: 300px;
+    height: 100px;
+    overflow: visible;
+    border: 2px solid tomato;
+
+}
+.overflow2 p{
+    width: 300px;
+    height: 100px;
+    overflow: scroll;
+    border: 2px solid rgb(55, 244, 184);
+}

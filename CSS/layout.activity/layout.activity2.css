@@ -1,0 +1,59 @@
+*{
+    text-transform: capitalize;
+    color: yellow;
+}
+.image img{
+    z-index: -1;
+    background-size: cover;
+    width: 1500px;
+    height: 1500px;
+  
+}
+.text{
+    z-index: 1;
+}
+.relative{
+    border: 2px solid red;
+    position: relative;
+    /* to use relative, need to define left ,right, top, or bottom */
+    left: 30px;
+    width: 50%;
+    height: 300px;
+    
+}
+.topleft{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 30%;
+    height: 100px;
+    border: 1px solid rgb(102, 0, 255);
+}
+.topright{
+ 
+    position: fixed;
+    /* to use relative, need to define left ,right, top, or bottom */
+    right: 20px;
+    top: 0;
+   
+
+}
+.center{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+}
+.bottomleft{
+
+    position: fixed;
+    left: 20px;
+    bottom: 0;
+
+    
+}
+.bottomright{
+    position: fixed;
+    right: 20px;
+    bottom: 0;
+ 
+}

@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&family=Yomogi&family=Yuji+Mai&family=Yuji+Syuku&display=swap');
+</style>
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    font-family: 'Cormorant SC', sans-serif;
+}
+.external-css{
+    color: aqua;
+}
+
+.john {
+    color: tomato;
+}
+
+#unique-header{
+    color: goldenrod;
+}
+
+
+/* -- */
+h1.heading-one{
+    color: blue;
+}
+h1{
+    color: red;
+}
+ul li{
+    color: blue;
+}
+.nav-links li{
+    color: red;
+}
+
+#color{
+    color: red;
+}

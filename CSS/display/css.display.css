@@ -1,0 +1,23 @@
+.none{
+    border: 1px solid green;
+    display: none;
+    /* none means not to display */
+}
+.text{
+    display: block;
+}
+ul li{
+    display: inline;
+}
+.text1{
+    display: inline-block;
+    border: 2px solid blue;
+}
+.shadow {
+    text-align: center;
+    width: 50%;
+    height: 30vh;
+    box-shadow: 20px 50px 20px tomato, -10px -10px aqua ;
+    margin: 0 auto;
+
+}

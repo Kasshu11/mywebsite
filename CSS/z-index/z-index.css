@@ -1,0 +1,19 @@
+
+.image1{
+    width: 200px;
+    position: relative;
+    left: 30px;
+    z-index: 3;
+}
+.image2{
+    width: 100px;
+    border: 2px solid white;
+    /* some left parts of image2 is hidden by imaage1 so far */
+   z-index: 1;
+}
+.image3{
+    width: 250px;
+    position: relative;
+    left: -20px;
+    z-index: 2;
+}

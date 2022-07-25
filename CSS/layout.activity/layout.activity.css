@@ -1,0 +1,49 @@
+*{
+    text-transform: capitalize;
+    color: yellow;
+}
+.image img{
+    z-index: -1;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+  
+}
+.text{
+    z-index: 1;
+}
+.topleft{
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 20px;
+
+}
+.topright{
+ 
+    position: fixed;
+    /* to use relative, need to define left ,right, top, or bottom */
+    right: 20px;
+    top: 0;
+   
+
+}
+.center{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+}
+.bottomleft{
+
+    position: fixed;
+    left: 20px;
+    bottom: 0;
+
+    
+}
+.bottomright{
+    position: fixed;
+    right: 20px;
+    bottom: 0;
+ 
+}

@@ -1,0 +1,26 @@
+table{
+    width: 50%;
+    border: 2px solid tomato;
+    empty-cells: show;
+    border-collapse: collapse;
+}
+
+tr.white{
+    background-color: white;
+    color: gray;
+}
+
+tr.gray{
+    background-color: gray;
+    color: white;
+}
+
+td{
+    font-size: 50px;
+    text-align: center;
+    border: 2px solid tomato;
+}
+
+.empty-cells{
+    background-color: rgb(52, 254, 254);
+}

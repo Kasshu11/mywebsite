@@ -1,0 +1,31 @@
+#left-container{
+    border: 1px solid red;
+    width: 30%;
+}
+.container{
+    background-color: antiquewhite;
+}
+#right-container{
+    border: 1px solid green;
+    width: 30%;
+    float: right;
+}
+#image-container{
+    float: right;
+    width: 40%;
+    height: 80px;
+}
+/*  */
+
+.table-container{
+    width: 40%;
+    float: right;
+ 
+}
+tr,td{
+    border: 1px solid black;
+}
+
+h2{
+    float: right;
+}

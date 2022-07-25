@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=M+PLUS+1+Code:wght@300&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Roboto:ital,wght@0,300;1,300&family=Yomogi&family=Yuji+Mai&family=Yuji+Syuku&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.css-color1{
+    background-color: green;
+
+}
+.css-color2{
+    color: salmon;
+    opacity: 1;
+}
+
+.font-size {
+    font-size: 200%;
+}
+.font-weight{
+    /* font-weight is to change the thickness or thiness of the txet*/
+    /*  */
+    font-weight:bold;
+}
+.font-style{
+    font-style: italic;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+
+}
+.capitalize{
+    text-transform: capitalize;
+}
+
+/* text decoration */
+.none{
+    text-decoration: none;
+    color: black;
+}
+.underline{
+    text-decoration: underline;
+}
+.overline{
+    text-decoration: overline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+
+/* text align */
+.left{
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+/* text shadow */
+.text-shadow{
+    text-shadow: 5px 5px 2px rgb(5, 216, 244);
+}
+
+/* text-indent */
+.text-indent{
+    text-indent: 50px;
+}
+/* letter spacing */
+.letter-spacing-10{
+    letter-spacing: 10px;
+}
+.letter-spacing-20{
+    letter-spacing: 20px;
+}
+/* eord spacing */
+.word-spacing-10{
+    word-spacing:10px ;
+}
+
+.word-spacing-20{
+    word-spacing:20px ;
+}

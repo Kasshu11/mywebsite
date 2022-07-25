@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.solid{
+    border: 10px solid tomato;
+
+}
+
+.dotted{
+    border: 10px dotted teal;
+}
+
+.dashed{
+    border: 10px dashed crimson;
+}
+
+.double{
+    border: 10px double seagreen;
+}
+
+.groove{
+    border: 10px groove rgb(255, 100, 255);
+}
+
+.ridge{
+    border: 10px ridge gray;
+}
+
+.inset{
+    border: 10px inset dodgerblue;
+}
+
+.outset{
+    border: 10px outset goldenrod;
+}
+
+.radious{
+    border: 10px solid black;
+    border-radius: 50px;
+}
+
+/* overflow */
+div{
+    border: 2px solid salmon;
+    height: 100px;
+    
+    overflow: scroll;
+}
+span p{
+    border: 2px solid salmon;
+    height: 100px;
+    width: 300px;
+    overflow: scroll;
+    text-align: center;
+    border-radius: 30px;
+}
